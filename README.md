@@ -24,6 +24,15 @@ Quick notes + a repeatable workflow to run **GenAI-Perf** (Perf Analyzer wrapper
 
 ---
 
+- Model on test:
+```
+sudo docker run --rm -d --gpus=all --runtime=nvidia   --name triton-vllm-serve   --entrypoint /opt/tritonserver/bin/tritonserver   -p 8000:8000 -p 8001:8001 -p 8002:8002   -v "$PWD/Documents/triton/vllm_backend/samples/model_repository:/models"   triton-vllm-gptoss:25.08-hotfix5   --model-repository=/models
+```
+
+
+---
+---
+  
 ## Run the Triton SDK container (includes GenAI-Perf)
 
 ```bash
