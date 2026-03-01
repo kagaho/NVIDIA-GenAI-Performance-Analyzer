@@ -4,6 +4,9 @@ Quick notes + a repeatable workflow to run **GenAI-Perf** (Perf Analyzer wrapper
 
 > **Reference (may be outdated):** https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/perf_analyzer/genai-perf/docs/tutorial.html
 
+- Being replaced by [AIPerf](https://github.com/kagaho/NVIDIA-VLLM_Serve_llama3-70b-awq_on_L40S_with_TP2/blob/main/AIPerf/README.md)
+
+
 ---
 
 ## What this repo/doc is for
